@@ -1,6 +1,8 @@
 SQL Syntax
 The sql syntax at its simplest form is a SELECT Statement followed by a FROM Statement. 
-Select is an integral part of the SQL Sytax and all SQL queires will have a Select in the statement.
+Select is an integral part of the SQL Sytax and all SQL queires will have a Select in the statement. 
+The most common operation in SQL, the query, makes use of the declarative SELECT statement. 
+SELECT retrieves data from one or more tables, or expressions. Standard SELECT statements have no persistent effects on the database
 
 Select 
 #column Names
