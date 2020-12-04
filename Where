@@ -1,0 +1,34 @@
+Where Clause
+
+
+The where clause is used to filter records. Think of it is only selecting the records which meet certain qualifications.
+Where clause is one of the best tools for removing excess data from a table. 
+
+
+
+for example:
+
+
+Select
+
+
+Select
+First Name,
+Last Name,
+Company
+from Customer Names
+Where Last Name = ‘Smith’
+
+
+
+In the example the where clause is only bringing back customer names whose last name is smith. The where cause does use logical operators. 
+
+=  equals
+> greater than
+< l ess than
+>= greater than or equal
+< less than or equal
+<> not equal
+Between Between a certain range
+like searches a patter
+in to specify multiple possible values
