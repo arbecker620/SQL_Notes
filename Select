@@ -1,0 +1,31 @@
+SQL Syntax
+The sql syntax at its simplest form is a SELECT Statement followed by a FROM Statementd
+
+Select 
+#column Names
+
+From #table name
+
+
+
+The select is used to select data from a data base. The data elected is then stored in a result-set.
+
+
+
+Example:
+Select
+Policy Number,
+Name,
+Date
+From Agreement
+
+
+To return a table and all the columns using the * symbol. So to return all columns in a table, we would use the following snippet:
+
+
+Select * from Table Name
+
+
+Select Distinct
+
+The statement Select Distinct statement only returns the unique values into your result set. 
