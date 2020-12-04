@@ -1,0 +1,22 @@
+Joins
+
+Join can be used dos combine rows from two or more tables with unique identifiers. Joins are one of the ways you can use to create more intricate results
+
+
+example:
+
+
+Select Application1.PolicyNumber, Application1.CustomerName, Application2.AgentNumber, Application2.AgentName
+from Application1
+join Dream on Application1.AgentNumber,  = Aplication2.AgentNumber
+
+
+
+Many tables in our servers and db all connected by a common unique identifier. 
+
+Join are a very powerful tool because of how much info you can bring together. There are different types of joins:
+
+inner joins - Returns records that have matching values in both tables
+left join returns all records from the left table and the matched records from the right tables
+right join returns all records from right tables and the matches records from the left table
+full join returns all records where there is a match in either left or right table. 
