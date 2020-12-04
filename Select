@@ -1,5 +1,6 @@
 SQL Syntax
-The sql syntax at its simplest form is a SELECT Statement followed by a FROM Statementd
+The sql syntax at its simplest form is a SELECT Statement followed by a FROM Statement. 
+Select is an integral part of the SQL Sytax and all SQL queires will have a Select in the statement.
 
 Select 
 #column Names
