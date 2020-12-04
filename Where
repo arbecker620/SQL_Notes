@@ -3,6 +3,7 @@ Where Clause
 
 The where clause is used to filter records. Think of it is only selecting the records which meet certain qualifications.
 Where clause is one of the best tools for removing excess data from a table. 
+The where clause is optional specifies which data values or rows will be returned or displayed, based on the criteria described after the keyword where.
 
 
 
@@ -32,3 +33,15 @@ In the example the where clause is only bringing back customer names whose last 
 Between Between a certain range
 like searches a patter
 in to specify multiple possible values
+like (Check the 'Like' Section to see more on this)
+
+
+
+
+
+
+
+
+
+
+
