@@ -5,4 +5,4 @@ This is a repo on SQL notes/concepts to share. If trying to learn SQL I would st
 1. Select 
 2. From 
 3. Where
-4. 
+4. Joins
