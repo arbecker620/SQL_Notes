@@ -3,9 +3,20 @@ Where Clause
 
 The where clause is used to filter records. Think of it is only selecting the records which meet certain qualifications.
 Where clause is one of the best tools for removing excess data from a table. 
-The where clause is optional specifies which data values or rows will be returned or displayed, based on the criteria described after the keyword where.
+The where clause is optional in a query and specifies which data values or rows will be returned or displayed based on the criteria described after the keyword where.
+The where clause uses following logical operators to help set the criteria:
 
 
+=  equals
+> greater than
+< l ess than
+>= greater than or equal
+< less than or equal
+<> not equal
+Between Between a certain range
+like searches a patter
+in to specify multiple possible values
+like (Check the 'Like' Section to see more on this)
 
 for example:
 
@@ -22,20 +33,8 @@ Where Last Name = ‘Smith’
 
 
 
-In the example the where clause is only bringing back customer names whose last name is smith. The where cause does use logical operators. 
 
-=  equals
-> greater than
-< l ess than
->= greater than or equal
-< less than or equal
-<> not equal
-Between Between a certain range
-like searches a patter
-in to specify multiple possible values
-like (Check the 'Like' Section to see more on this)
-
-
+The query will only return the records where the last name column is equal to 'Smith'
 
 
 
