@@ -2,12 +2,12 @@
 
 
 
-
-SELECT <columns>	5.
-FROM <table>	1.
-WHERE <predicate on rows>	2.
-GROUP BY <columns>	3.
-HAVING <predicate on groups>	4.
-ORDER BY <columns>	6.
-OFFSET	7.
-FETCH FIRST	8
+Order Statement
+5.    SELECT <columns>	
+1.    FROM <table>	
+2.    WHERE <predicate on rows>	
+3.    GROUP BY <columns>	
+4.    HAVING <predicate on groups>
+6.    ORDER BY <columns>	
+7.    OFFSET	
+8.    FETCH FIRST	
