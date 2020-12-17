@@ -48,12 +48,8 @@ The statement Select Distinct statement only returns the unique values into your
 
 
 
-
-
-
-
-
-
+SELECT DISTINCT column1, column2, ...
+FROM table_name
 
 
 
