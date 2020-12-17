@@ -44,4 +44,4 @@ Select * from Table Name
 
 Select Distinct
 
-The statement Select Distinct statement only returns the unique values into your result set. 
+The statement Select Distinct statement only returns the unique values into your result set. Many times a table could potentially have duplicate values, one way of working with this is using DISTINCT. 
