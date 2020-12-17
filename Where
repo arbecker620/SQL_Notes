@@ -7,16 +7,16 @@ The where clause is optional in a query and specifies which data values or rows 
 The where clause uses following logical operators to help set the criteria:
 
 
-=  equals
-> greater than
-< l ess than
->= greater than or equal
-< less than or equal
-<> not equal
-Between Between a certain range
-like searches a patter
-in to specify multiple possible values
-like (Check the 'Like' Section to see more on this)
+=  : equals
+>  : greater than
+<  : less than
+>= : greater than or equal
+<  : less than or equal
+<>  : not equal
+Between  : Between a certain range
+like : searches a patter
+in   : to specify multiple possible values
+like : (Check the 'Like' Section to see more on this)
 
 for example:
 
@@ -34,7 +34,35 @@ Where Last Name = ‘Smith’
 
 
 
-The query will only return the records where the last name column is equal to 'Smith'
+The query will only return the records where the last name column is equal to 'Smith'. 
+
+
+Helpful tip: The where statement is a chance to limit record being returns specific to the query you are building. When building a query use a where clause as the following: 'These are the items I am looking for' and not 'Bring me all records' to look at. By analyzing your where clause and what you are looking for this helps your execution plan as you can eliminate redundant data. 
+
+In our example above we returns only customer records with the last name of 'Smith'. To return records with the name 'Smith' and 'Baker' we can use the logical operator of OR.So to return the Smith and Baker customers we can do the following:
+
+
+Select
+First Name,
+Last Name,
+Company
+from Customer Names
+Where Last Name = ‘Smith’ or Last Name = 'Baker'
+
+
+
+Another way to write this is using the 'in' logical operator. The IN operator allows you to specify multiple values in a WHERE clause. The IN operator is a shorthand for multiple OR conditions.
+
+
+Select
+First Name,
+Last Name,
+Company
+from Customer Names
+Where Last Name in ( ‘Smith’,' Baker')
+
+
+Using the In operator presents a clearer and concise wasy to say you are wanting a certain list of terms to be returned. 
 
 
 
