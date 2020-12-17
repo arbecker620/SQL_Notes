@@ -62,9 +62,17 @@ from Customer Names
 Where Last Name in ( ‘Smith’,' Baker')
 
 
-Using the In operator presents a clearer and concise wasy to say you are wanting a certain list of terms to be returned. 
+Using the In operator presents a clearer and concise wasy to say you are wanting a certain list of terms to be returned. The word NOT  can be used in the WHERE clause with IN to provide a 
 
 
+For example, using the Customers above with SMITH and BAKER. We can rework out query to return the records where the client records are NOT SMITH or BAKER. We use the following query: 
+
+Select
+First Name,
+Last Name,
+Company
+from Customer Names
+Where Last Name not in ( ‘Smith’,' Baker')
 
 
 
